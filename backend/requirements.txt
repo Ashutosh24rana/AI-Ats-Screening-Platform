@@ -1,0 +1,32 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+sqlalchemy==2.0.36
+psycopg2-binary==2.9.10
+alembic==1.14.0
+pydantic==2.10.4
+pydantic-settings==2.7.0
+email-validator==2.2.0
+
+# Auth
+bcrypt==4.2.1
+PyJWT==2.10.1
+python-multipart==0.0.20
+
+# AI / LangChain / LangGraph
+langchain==0.3.14
+langchain-core==0.3.29
+langchain-community==0.3.14
+langchain-google-genai==2.0.8
+langchain-text-splitters==0.3.5
+langgraph==0.2.60
+pinecone-client==6.0.0
+langchain-pinecone==0.2.2
+pypdf==5.1.0
+
+# Async processing
+celery==5.4.0
+redis==5.2.1
+
+# Testing
+pytest==8.3.4
+httpx==0.28.1
