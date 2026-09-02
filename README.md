@@ -214,7 +214,7 @@ npm run dev
 
 ```powershell
 # PostgreSQL — create DB once
-$env:PGPASSWORD='123'; & "D:\postgresql\bin\psql.exe" -h localhost -p 5432 -U postgres -c 'CREATE DATABASE "ResumeRAG";'
+$env:PGPASSWORD=''; & "D:\postgresql\bin\psql.exe" -h localhost -p 5432 -U postgres -c 'CREATE DATABASE "ResumeRAG";'
 
 # Backend
 cd backend
@@ -401,5 +401,3 @@ npm run build                      # Vite build check
 - Docker Compose one-command setup
 
 ---
-
-*Built with FastAPI, LangGraph and Pinecone — single `.env` at repo root, `Ctrl+Shift+B` to run everything.*
