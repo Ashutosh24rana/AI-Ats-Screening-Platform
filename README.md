@@ -101,7 +101,7 @@ Resumes  (file_url, raw_text) — vectors live in Pinecone, not Postgres
 
 ## 📁 Folder Structure
 
-```
+```text
 Airesumeplatform/
 ├── .env                    # single env file for backend + frontend (VITE_*)
 ├── .vscode/tasks.json      # Run All (Ctrl+Shift+B) — Redis + API + Worker + Frontend
